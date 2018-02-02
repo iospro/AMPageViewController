@@ -26,7 +26,7 @@ Convenient subclass of UIPageViewController
 ```swift
 // Create array of pages
 let source: [UIViewController] = ...  
-// Create *pageController* with interPageSpacing
+// Create pageController with interPageSpacing
 let pageController = AMPageViewController(interPageSpacing: 5)
 // Set source array
 pageController.source = source
