@@ -13,8 +13,8 @@ Convenient subclass of UIPageViewController
 
 
 ### Features
-- [x] Simple interface.
-- [x] Cycled mode for 3+ UIViewControllers.
+- [x] Very simple safe usage.
+- [x] Cycled mode for 3+ pages.
 - [x] Smart methods excluding well-know crashes (https://stackoverflow.com/questions/42833765/assertion-failure-in-uipageviewcontroller).
 - [x] Pure Swift 4.
 
