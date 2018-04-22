@@ -119,7 +119,7 @@ import UIKit
     }
 }
 
-extension FFPageViewController: UIPageViewControllerDataSource {
+extension AMPageViewController: UIPageViewControllerDataSource {
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
