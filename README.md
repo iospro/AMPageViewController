@@ -13,8 +13,8 @@ Convenient subclass of UIPageViewController
 
 
 ### Features
-- [x] Simple interface.
-- [x] Cycled mode for 3+ UIViewControllers.
+- [x] Very simple safe usage.
+- [x] Cycled mode for 3+ pages.
 - [x] Smart methods excluding well-know crashes (https://stackoverflow.com/questions/42833765/assertion-failure-in-uipageviewcontroller).
 - [x] Pure Swift 4.
 
@@ -26,13 +26,13 @@ Convenient subclass of UIPageViewController
 ```swift
 // Create array of pages
 let source: [UIViewController] = ...  
-// Create `pageController` with `interPageSpacing`
+// Create pageController with interPageSpacing
 let pageController = AMPageViewController(interPageSpacing: 5)
 // Set source array
 pageController.source = source
-// Set `viewController` to show by `pageIndex` between 0 and `source.count`
+// Set viewController to show by pageIndex between 0 and source.count
 pageController.pageIndex = 0
-// Then set `delegate` to observe navigation
+// Then set delegate to observe navigation
 pageController.delegate = ...
 ```
 
